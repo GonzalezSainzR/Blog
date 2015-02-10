@@ -6,4 +6,6 @@ $username = "root";
 $password = "root";
 $database = "blog_db";
 
+$connection = new Database($host, $username, $database);
+
 
