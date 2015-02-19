@@ -18,5 +18,9 @@
     <div>
         <button type="submit">Submit</button>
     </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
 </form>
 
