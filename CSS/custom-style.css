@@ -2,7 +2,8 @@
 p, h2,#Greet, h4, h3,#All, #Register, #PST {
    text-align: center;
 }
-#navbar{
+#navbar1{
+    padding-bottom: 8px;
     border-bottom: solid;
     border-right: solid;
     border-color: #fff;
@@ -13,15 +14,13 @@ p, h2,#Greet, h4, h3,#All, #Register, #PST {
 body {
     background-color: #2aabd2;
 }
-#Greet
-{
+#Greet {
     border: solid;
     border-color: #5cb85c;
     background-color: #5cb85c;
     border-bottom-color: #fff;
 }
-#Info {
-    padding-bottom: 9px;
+#Info1 {
     border-bottom: solid;
     border-color: #fff;
 }
