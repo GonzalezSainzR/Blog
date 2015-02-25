@@ -12,5 +12,5 @@
     <body>
 		<script src="js/ytmenu.js"></script>
                 <div id='Greet'>
-                    <h1>Renans Blog</h1>
+                    <h1>Renan's Blog</h1>
                 </div>
