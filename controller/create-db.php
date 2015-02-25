@@ -6,12 +6,6 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts  ("
         . "title varchar(255) NOT NULL,"
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
-if($query) {
-    echo "<p>Succesfully created database: " . $database . "</p>";
-}
-else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
-}
 
 $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "id int(11)  NOT NULL AUTO_INCREMENT,"
@@ -20,10 +14,3 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "password char(128) NOT NULL,"
         . "salt char(128) NOT NULL,"
         . "PRIMARY KEY  (id))");
-
-if($query) {
-    echo "<p>Succesfully created table: users</P>";
-}
-else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
-}

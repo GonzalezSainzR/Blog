@@ -1,3 +1,20 @@
- div {
+
+p, h2,#Greet {
+   text-align: center;
+}
+#navbar {
     border: solid;
+}
+#post {
+    background-color: #2aabd2;
+}
+body {
+    background-color: #2aabd2;
+}
+#Greet
+{
+    border: solid;
+    border-color: #5cb85c;
+    background-color: #5cb85c;
+    border-bottom-color: #fff;
 }
