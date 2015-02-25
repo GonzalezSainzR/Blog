@@ -6,7 +6,7 @@ $result = $_SESSION["connection"]->query($query);
 
 if ($result) {
     while ($row = mysqli_fetch_array($result)) {
-        echo "<div id='post' class='col-xs-8' class='post'>";
+        echo "<div id='post' class='col-xs-12' class='post'>";
         echo "<h2>" . $row['title'] . "</h2>";
         echo "<br />";
         echo "<p>" . $row['post'] . "</p>";

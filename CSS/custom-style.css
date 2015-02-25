@@ -1,9 +1,11 @@
 
-p, h2,#Greet {
+p, h2,#Greet, h4, h3,#All {
    text-align: center;
 }
-#navbar {
-    border: solid;
+#navbar{
+    border-bottom: solid;
+    border-right: solid;
+    border-color: #fff;
 }
 #post {
     background-color: #2aabd2;
@@ -17,4 +19,9 @@ body {
     border-color: #5cb85c;
     background-color: #5cb85c;
     border-bottom-color: #fff;
+}
+#Info {
+    padding-bottom: 9px;
+    border-bottom: solid;
+    border-color: #fff;
 }
