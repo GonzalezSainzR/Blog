@@ -28,9 +28,9 @@
 </div>
     <div  id='Info1' class='col-xs-8'>
         <h2>Welcome to my Blog</h2><br/>
-        <h4>Hi. If you haven't noticed already, this is the first blog Iv'e ever made.</h4>
+        <h4>Hi. If you haven't noticed already, this is the first blog Iv'e ever made. I wanted to keep it simple so anyone can easily use it</h4>
         <h3>A Little about the creator</h3>
-        <h4>My name is Renan Gonzalez-Sainz.<br/> Im a 14 year old student attending Pasadena High School and am currently in a 4 year program called The APP Academy.<br/> Web design is one of my favorite things to do, and is also something I think im fairly good at.<br/> Anyways, enough about me, on to the blog!</h4>
+        <h4>My name is Renan Gonzalez-Sainz.<br/> Im a 14 year old student attending Pasadena High School and am currently in a 4 year program called <a href="http://theappacademy.us">The APP Academy.</a><br/> Web design is one of my favorite things to do, and is also something I think im fairly good at.<br/> Anyways, enough about me, on to the blog!</h4>
     </div>
 </div>
 <div class='row'>
